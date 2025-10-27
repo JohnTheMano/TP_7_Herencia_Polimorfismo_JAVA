@@ -8,6 +8,6 @@ package tp_7_herencia_y_polimorfismo;
  *
  * @author Win
  */
-public class EmpleadoTemporal {
+public class EmpleadoTemporal extends Empleado{
     
 }

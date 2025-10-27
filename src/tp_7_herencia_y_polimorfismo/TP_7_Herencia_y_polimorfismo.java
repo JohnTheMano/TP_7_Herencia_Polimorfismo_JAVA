@@ -29,6 +29,22 @@ public class TP_7_Herencia_y_polimorfismo {
             System.out.println("Superficie: "+ figura.calcularArea()+ " m2");
             
         }
+        
+        ArrayList <Empleado> empleados = new ArrayList<>();
+        
+        EmpleadoPlanta empPlanta1= new EmpleadoPlanta();
+        EmpleadoPlanta empPlanta2= new EmpleadoPlanta();
+        EmpleadoTemporal empTemporal1= new EmpleadoTemporal();
+        EmpleadoTemporal empTemporal2= new EmpleadoTemporal();
+        
+        empleados.add(empPlanta1);
+        empleados.add(empPlanta2);
+        empleados.add(empTemporal1);
+        empleados.add(empTemporal2);
+        
+        for(Empleado emp : empleados){
+            System.out.println("El sueldo del empleado " + "es: " + emp.calcularSueldo(emp));
+        }
     }
     
 }

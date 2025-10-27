@@ -8,7 +8,7 @@ package tp_7_herencia_y_polimorfismo;
  *
  * @author Win
  */
-public class EmpleadoPlanta {
+public class EmpleadoPlanta extends Empleado {
     private double monto;
     
     
